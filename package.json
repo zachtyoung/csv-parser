@@ -10,6 +10,7 @@
   "author": "Zach Young",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
+    "@fast-csv/parse": "^4.3.0",
     "cors": "^2.8.5",
     "csv": "^5.3.2",
     "csv-parse": "^4.10.1",

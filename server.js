@@ -10,8 +10,9 @@ server.get('/', (req, res) => {
 });
 
 server.post('/user_submission', (req, res) => {
-  db.insert(req.body)
+  db.insert2(req.body)
   .then(response => res.status(200).json(response))
+  .catch(err => console.log(err))
 });
 
 module.exports = server;
